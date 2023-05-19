@@ -10,46 +10,16 @@
 ### Datatest:
 We use Verismith to create our data test. So if you want to generate Verilog model test you can visit [Veismith](https://github.com/ymherklotz/verismith)
 
-##### [SLforge: Automatically Finding Bugs in a Commercial Cyber-Physical Systems Development Tool](https://github.com/verivital/slsf_randgen/wiki#getting-slforge)
-**The format of the model is divided into mdl and slx according to the Simulink standard. If you use some third-party open source models, make sure that the dependencies 
-between the models and the data are loaded into your memory. We do not recommend using third-party models in unfiltered conditions, which will cause your computer
-to crash abnormally. Please be careful**
+##### [Verismith: Verilog Fuzzer to test the major verilog compilers by generating random, valid and deterministic Verilog.](https://github.com/ymherklotz/verismith)
 ***
 ### Our Works
-We are committed to testing the stability of the `CPS` ` (cyber physical systems)` development tool Simulink. Our work mainly relies on the live mutation technique to detect Simulink bugs by means of `Equivalent Modulo Input` `(EMI)`. We will first obtain the information of the test model, including the number of modules of the model, the coverage ratio, the input and output information of the module, the handle of the module and its connection, etc. The mutation testing step is performed based on the obtained model information. We add the conditional discriminant module to the random selection module, and synthesize discriminants with contradictory predicates according to the input and output information. Then another module in the model is selected according to our specific discriminant method to be added to the branch where the discriminant module is always executed. In branches that are not executed, we will synthesize new regions according to our method. This results in a variant model. Finally compare the variant with the original model to discover potential flaws in Simulink
+We propose a testing method for FPGA simulation tools, in which we detect the robustness and stability of the FPGA simulation tools by creating equivalent timing regions and applying mutation techniques to specific program segments. Our method is primarily inspired by the Equivalent Mutant Input (EMI) approach used in general compilers. Our method has been proven effective, as we discovered 16 different types of bugs within a six-month period.
 
 ***
 ### Hello World
-Before starting, you need to set two environment variables `SLSFCORPUS` and `COVEXPEXPLORE`,both of which point to your `reproduce/samplecorpus` file. In subsequent operations, you need to put the test models into 
-this folder so that Simulink can quickly and accurately find the files you need
-
-If you have questions about setting environment variables, please visit the official *[Mathworks website](https://ww2.mathworks.cn/help/matlab/ref/setenv.html?lang=en)*
-***
-In order to test the stability of the program, you need to test and collect the coverage information of the model in advance. You need to run this at the Matlab command line：
-
-```covexp.covcollect```
-
-You can change the collected configuration parameters in the file `covcfg.m` and set the maximum compile time for the model
-Due to problems with some models, this process may experience program termination. 
-If you wish, you can choose in the file.Replace  `@emi.preprocess_models` with `@emi.check_SLforge` . Also replace the path in the file with the absolute path where you store the model file
-This will help you filter your models
-
-***
-### Test Program
-**Warning: You must collect coverage information before running the compiled test program.**
-You can modify the parameters of the mutation in the `cfg.m` file, including the number of variants, the rate of variants, and the choice of variant space.
-Once everything is in place, you can run in the Matlab command line:
-
-```emi.go()```
-
-A mutation procedure for variants is performed.
-
-****
-### Test Result
-The experimental results will be placed in the +emi_result file, and the information including the variants will also be written separately into the `.mat` data table of each 
-variant subfile. If you want to see the overall data, you can run from the Matlab command line:
-
-```emi.repoert```
+Before starting, you need to put your seed models in ./resamplesourcs. Then you can run ```python control.py```to check the seed models and test simulation tools
+By the way, the result of code will output as .txt in your main file.So if you want to watch the result of VSRCOM you can find the error log
+files.Vivado crush will output as "herr_pid**.log",we have examples in ./bugs.
 
 ***
 ### Here are the details of these bugs
