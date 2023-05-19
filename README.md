@@ -20,7 +20,7 @@ We propose a testing method for FPGA simulation tools, in which we detect the ro
 Before starting, you need to put your seed models in ./resamplesourcs. Then you can run ```python control.py```to check the seed models and test simulation tools.
 
 By the way, the result of code will output as .txt in your main file.So if you want to watch the result of VSRCOM you can find the error log
-files.Vivado crush will output as "herr_pid**.log",we have examples in ./bugs.
+files.Vivado crush will output as "hs_er_pid**.log",we have examples in ./bugs.
 
 
 ***
