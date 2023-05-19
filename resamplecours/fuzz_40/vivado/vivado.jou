@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Apr 24 12:34:17 2023
+# Process ID: 58813
+# Current directory: /doc/xzh/out_exp_48/fuzz_40/vivado
+# Command line: vivado -mode batch -source vivado_top.tcl
+# Log file: /doc/xzh/out_exp_48/fuzz_40/vivado/vivado.log
+# Journal file: /doc/xzh/out_exp_48/fuzz_40/vivado/vivado.jou
+# Running On: tsmc-System-Product-Name, OS: Linux, CPU Frequency: 4851.025 MHz, CPU Physical cores: 10, Host memory: 134967 MB
+#-----------------------------------------------------------
+source vivado_top.tcl

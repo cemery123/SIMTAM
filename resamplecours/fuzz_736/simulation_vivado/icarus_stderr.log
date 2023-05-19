@@ -1,0 +1,30 @@
+./syn_vivado.v:1017: warning: Port 1 (CO) of CARRY4 expects 4 bits, got 3.
+./syn_vivado.v:1017:        : Padding 1 high bits of the port.
+./syn_vivado.v:1017: warning: Port 2 (O) of CARRY4 expects 4 bits, got 2.
+./syn_vivado.v:1017:        : Padding 2 high bits of the port.
+./syn_vivado.v:1806: warning: Port 1 (CO) of CARRY4 expects 4 bits, got 3.
+./syn_vivado.v:1806:        : Padding 1 high bits of the port.
+./syn_vivado.v:1806: warning: Port 2 (O) of CARRY4 expects 4 bits, got 2.
+./syn_vivado.v:1806:        : Padding 2 high bits of the port.
+./syn_vivado.v:1827: warning: Port 1 (CO) of CARRY4 expects 4 bits, got 3.
+./syn_vivado.v:1827:        : Padding 1 high bits of the port.
+./syn_vivado.v:1827: warning: Port 2 (O) of CARRY4 expects 4 bits, got 2.
+./syn_vivado.v:1827:        : Padding 2 high bits of the port.
+./syn_vivado.v:1869: warning: Port 1 (CO) of CARRY4 expects 4 bits, got 3.
+./syn_vivado.v:1869:        : Padding 1 high bits of the port.
+./syn_vivado.v:1869: warning: Port 2 (O) of CARRY4 expects 4 bits, got 2.
+./syn_vivado.v:1869:        : Padding 2 high bits of the port.
+./syn_vivado.v:1883: warning: Port 1 (CO) of CARRY4 expects 4 bits, got 3.
+./syn_vivado.v:1883:        : Padding 1 high bits of the port.
+./syn_vivado.v:1883: warning: Port 2 (O) of CARRY4 expects 4 bits, got 2.
+./syn_vivado.v:1883:        : Padding 2 high bits of the port.
+./syn_vivado.v:2021: warning: Port 1 (CO) of CARRY4 expects 4 bits, got 2.
+./syn_vivado.v:2021:        : Padding 2 high bits of the port.
+./syn_vivado.v:2021: warning: Port 2 (O) of CARRY4 expects 4 bits, got 3.
+./syn_vivado.v:2021:        : Padding 1 high bits of the port.
+./syn_vivado.v:2736: warning: Port 1 (CO) of CARRY4 expects 4 bits, got 2.
+./syn_vivado.v:2736:        : Padding 2 high bits of the port.
+./syn_vivado.v:2736: warning: Port 2 (O) of CARRY4 expects 4 bits, got 3.
+./syn_vivado.v:2736:        : Padding 1 high bits of the port.
+warning: Found both default and `timescale based delays. Use
+       : -Wtimescale to find the module(s) with no `timescale.
