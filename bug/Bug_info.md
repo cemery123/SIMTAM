@@ -1,5 +1,5 @@
 # Bugs
-## Here are bugs detected by VSRCOM
+## Here are bugs detected by SIMTAM
 ### Iverilog bugs
 |  ID   | Confirmed  |  fixed |
 |  --------------------------------------------------------  | ----  | ----  |
