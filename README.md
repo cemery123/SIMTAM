@@ -1,5 +1,5 @@
-# VSRCOM
-## [VSRCOM:FPGA simulation testing tool](https://github.com/cemery123/VSRCOM/edit/main/README.md)
+# SIMTAM
+## [SIMTAM:Finding Bugs In FPGA Simulation Tools Via Timing Area Mutation](https://github.com/cemery123/VSRCOM/edit/main/README.md)
 **Env dependencies:**
 1. **Vivado 2022.1 and above**
 2. **Iverilog 0.97 and above**
@@ -25,4 +25,4 @@ files.Vivado crush will output as "hs_er_pid**.log",we have examples in ./bugs.
 
 ***
 ### Reported bugs
-Our reported bugs is in [Bugs](https://github.com/cemery123/VSRCOM/edit/main/bug).You can visit the website of vivado and Iverilog to reproduce these bugs.
+Our reported bugs is in [Bugs](https://github.com/cemery123/SIMTAM/edit/main/bug).You can visit the website of vivado and Iverilog to reproduce these bugs.
