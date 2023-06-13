@@ -24,4 +24,4 @@
 | [Delay brittleness caused by function exception](https://support.xilinx.com/s/question/0D54U00006lB6gcSAC)  | &#x2753; | &#x2753; |
 | [Globally reset possible data exceptions in the case of referenced files](https://support.xilinx.com/s/question/0D54U00006lB8rSSAS)  | &#x2753; | &#x2753; |
 | [denormal value missing by signed](https://support.xilinx.com/s/question/0D54U00006nUeqbSAC) | &#x2753; | &#x2753; |
-| [Inconsistent Vivado results, 'timescale' warning]([https://support.xilinx.com/s/question/0D54U00006nUeqbSAC](https://support.xilinx.com/s/feed/0D54U00006tbSbaSAE?language=en_US)) | &#x2705; | &#x2753; |
+| [Inconsistent Vivado results, 'timescale' warning](https://support.xilinx.com/s/feed/0D54U00006tbSbaSAE?language=en_US) | &#x2705; | &#x2753; |
